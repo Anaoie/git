@@ -1,10 +1,12 @@
 # macOS
 .DS_Store
+Thumbs.db
 
 # Editors
 .idea/
 .vscode/
 *.swp
+*.swo
 
 # Logs
 *.log
@@ -12,3 +14,19 @@
 # Environment
 .env
 .env.*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
